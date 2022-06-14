@@ -1,5 +1,9 @@
 import moviesData from '../../dataset/movies.json'
 
+exports.functionError = () =>{
+    return error
+}
+
 exports.getAllMovies = () => {
     return moviesData
 }
